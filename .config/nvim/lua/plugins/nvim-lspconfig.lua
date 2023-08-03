@@ -6,4 +6,5 @@ return {
 		vim.keymap.set("n", "]d", vim.diagnostic.goto_next)
 		vim.keymap.set("n", "<Leader>q", vim.diagnostic.setloclist)
 	end,
+    lazy = true,
 }
