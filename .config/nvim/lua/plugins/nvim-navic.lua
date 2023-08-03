@@ -5,5 +5,5 @@ return {
 			auto_attach = true,
 		},
 	},
-    lazy = true,
+	lazy = true,
 }
