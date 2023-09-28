@@ -4,7 +4,7 @@ SETUVAR --export CARGO_HOME:/home/steffeno/\x2elocal/share/cargo
 SETUVAR --export EDITOR:nvim\x1e\x2de
 SETUVAR --export RUSTUP_HOME:/home/steffeno/\x2elocal/share/rustup
 SETUVAR --export VISUAL:nvim
-SETUVAR --export XDG_CACHE_HOME:/home/steffeno/cache
+SETUVAR --export XDG_CACHE_HOME:/home/steffeno/.cache
 SETUVAR --export XDG_CONFIG_HOME:/home/steffeno/\x2econfig
 SETUVAR --export XDG_DATA_HOME:/home/steffeno/\x2elocal/share
 SETUVAR --export XDG_STATE_HOME:/home/steffeno/\x2elocal/state
