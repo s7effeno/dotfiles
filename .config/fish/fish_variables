@@ -4,10 +4,11 @@ SETUVAR --export CARGO_HOME:/home/steffeno/\x2elocal/share/cargo
 SETUVAR --export EDITOR:nvim\x1e\x2de
 SETUVAR --export RUSTUP_HOME:/home/steffeno/\x2elocal/share/rustup
 SETUVAR --export VISUAL:nvim
-SETUVAR --export XDG_CACHE_HOME:/home/steffeno/.cache
+SETUVAR --export XDG_CACHE_HOME:/home/steffeno/\x2ecache
 SETUVAR --export XDG_CONFIG_HOME:/home/steffeno/\x2econfig
 SETUVAR --export XDG_DATA_HOME:/home/steffeno/\x2elocal/share
 SETUVAR --export XDG_STATE_HOME:/home/steffeno/\x2elocal/state
+SETUVAR --export _JAVA_AWT_WM_NONREPARENTING:1
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
