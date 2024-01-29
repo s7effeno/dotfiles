@@ -1,7 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export CARGO_HOME:/home/steffeno/\x2elocal/share/cargo
+SETUVAR --export DOCKER_CONFIG:/home/steffeno/\x2econfig/docker
 SETUVAR --export EDITOR:nvim\x1e\x2de
+SETUVAR --export --path MACHINE_STORAGE_PATH:/home/steffeno/\x2elocal/share/docker\x2dmachine
 SETUVAR --export RUSTUP_HOME:/home/steffeno/\x2elocal/share/rustup
 SETUVAR --export VISUAL:nvim
 SETUVAR --export XDG_CACHE_HOME:/home/steffeno/\x2ecache
