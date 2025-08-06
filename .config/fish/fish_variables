@@ -3,6 +3,7 @@
 SETUVAR --export CARGO_HOME:/home/steffeno/\x2elocal/share/cargo
 SETUVAR --export DOCKER_CONFIG:/home/steffeno/\x2econfig/docker
 SETUVAR --export EDITOR:nvim\x1e\x2de
+SETUVAR --export GHCUP_USE_XDG_DIRS:
 SETUVAR --export GRADLE_USER_HOME:/home/steffeno/\x2elocal/share/gradle
 SETUVAR --export --path MACHINE_STORAGE_PATH:/home/steffeno/\x2elocal/share/docker\x2dmachine
 SETUVAR --export RUSTUP_HOME:/home/steffeno/\x2elocal/share/rustup
@@ -43,3 +44,4 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/home/steffeno/\x2elocal/bin
