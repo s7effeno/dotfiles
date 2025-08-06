@@ -1,5 +1,5 @@
 return {
-    "williamboman/mason-lspconfig",
+    "mason-org/mason-lspconfig.nvim",
     dependencies = {
         { "mason-org/mason.nvim", opts = {} },
         "neovim/nvim-lspconfig",
@@ -42,9 +42,12 @@ return {
             vim.keymap.set("n", "<leader>d", toggle_diagnostic, opts("Toggle diagnostics"))
         end
 
-        vim.lsp.config["lua_ls"] = {
+        vim.lsp.config("*", {
             on_attach = on_attach,
             capabilities = capabilities,
+        })
+
+        vim.lsp.config("lua_ls", {
             settings = {
                 Lua = {
                     diagnostics = {
@@ -52,6 +55,6 @@ return {
                     },
                 },
             },
-        }
+        })
     end
 }
